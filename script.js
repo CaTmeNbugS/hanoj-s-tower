@@ -17,6 +17,7 @@ let queueHistory = []
 let complete     = false
 let i = 1
 
+alert("Не вводи значения больше 10!")
 const n     = prompt()
 const turns = Math.pow(2, n) - 1
 
